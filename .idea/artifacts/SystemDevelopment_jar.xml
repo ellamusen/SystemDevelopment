@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="SystemDevelopment:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/SystemDevelopment_jar</output-path>
+    <root id="archive" name="SystemDevelopment.jar">
+      <element id="module-output" name="SystemDevelopment" />
+    </root>
+  </artifact>
+</component>

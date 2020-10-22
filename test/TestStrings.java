@@ -8,17 +8,16 @@ public class TestStrings extends TestSuite {
     }
 
     public static void main(String[] args) {
-        TestClass testClass = new TestClass();
-        testClass.runTestSuite();
+        TestStrings ts  = new TestStrings();
+        ts.runTestSuite();
     }
 
     private void passingTest() {
-        // Ændres fra int til String
-        assertEquals(new String("string1"),new String("string1"));
+        assertEquals("string1","string1");
     }
 
     private void failingTest() {
-        assertEquals(new String("string1"), new String("string10"));
+        assertEquals("string1", "string10");
 
     }
 }

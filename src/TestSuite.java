@@ -26,4 +26,14 @@ public abstract class TestSuite {
             System.out.println("Test " + (passed + failed) +  " has failed.\nExpected result: " + expected + "\nActual result: " + actual);
         }
     }
+
+    public void assertEquals(String expected, String actual){
+        if (expected.equals(actual)){
+            passed++;
+        }
+        else {
+            failed++;
+            System.out.println("Test " + (passed + failed) +  " has failed...\nExpected result: " + expected + "\nActual result: " + actual);
+        }
+    }
 }
