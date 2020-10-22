@@ -4,11 +4,7 @@ public abstract class TestSuite {
     private int passed;
     private int failed;
 
-
-
     // Methods
-
-
     public abstract void testMethodList();
 
     protected void runTestSuite(){
@@ -19,7 +15,6 @@ public abstract class TestSuite {
 
         System.out.println("Test passed:\t" + passed);
         System.out.println("Test failed:\t" + failed);
-
     }
 
     public void assertEquals(int expected, int actual){
@@ -30,10 +25,5 @@ public abstract class TestSuite {
             failed++;
             System.out.println("Test " + (passed + failed) +  " has failed.\nExpected result: " + expected + "\nActual result: " + actual);
         }
-
-
-
     }
-
-
 }

@@ -19,5 +19,4 @@ public class TestClass extends TestSuite {
         assertEquals(3,1);
 
     }
-
 }
